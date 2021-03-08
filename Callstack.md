@@ -21,7 +21,7 @@
 
 이것을 처리하는 가장 쉬운 방법은 비동기 함수 콜백(asynchronous callback)을 사용하는 것이다. 비동기 콜백을 사용한다는 것은 코드의 일정부분을 실행하고 이것을 나중에 실행할 콜백함수에 주는 것이다. 모든 비동기 콜백은 즉시 실행될수 없으며, 나중에 실행될 것이다. 그래서 동기 함수인 console.log처럼 스택에 즉시 들어갈 수 없다. 그럼 비동기 콜백은 어디로 가고 어떻게 다룰까?
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b13e30c4-048a-4152-a5eb-a851073cc6e0/__2021-03-08_170730.png](https://medium.com/@gaurav.pandvia/understanding-javascript-function-executions-tasks-event-loop-call-stack-more-part-1-5683dea1f5ec)
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b13e30c4-048a-4152-a5eb-a851073cc6e0/__2021-03-08_170730.png](https://miro.medium.com/max/2400/1*QZkRG3HtuqrS3FDucnryKw.png)
 
 응답에서의 호출자(Caller)의 분리는 자바스크립트에게 비동기 실행을 완료하고 Callback이 호출될 떄 까지 기다리는 동안 다른 일을 처리할 수 있게 해준다. 그래서 가장 나중에 호출된 console.log 인 동기 함수가 가장 먼저 출력된 것이다. console.log가 출력되고 브라우저 API들이 작동한다. 
 

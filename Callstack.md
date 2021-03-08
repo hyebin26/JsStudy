@@ -29,6 +29,6 @@
 
 Event Loop는 큐안에 있는 콜백들 실행 그리고 스택이 비었을 때, 스택안에 콜백을 push하는 것에 책임이 있다. Event Loop의 기초적인 일은 스택과 일 큐(task queue)를 보고 스택이 비어있을 때 큐에 첫번째 것을 push하는 것이다.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d0d09db1-81e8-4ebf-9000-15e1762d35a9/JavascriptEventLoop1.png](https://medium.com/@gaurav.pandvia/understanding-javascript-function-executions-tasks-event-loop-call-stack-more-part-1-5683dea1f5ec)
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d0d09db1-81e8-4ebf-9000-15e1762d35a9/JavascriptEventLoop1.png](https://miro.medium.com/max/2400/1*-MMBHKy_ZxCrouecRqvsBg.png)
 
 웹브라우저에서, 메시지들은 이벤트가 발생했을 때 추가되고 이벤트 리스너가 붙어있다. 만약에 리스너가 없다면, 이벤트는 사라진다. 그래서 클릭 이벤트 핸들러를 가지고 있는 요소(Element)의 클릭은 다른 이벤트처럼 메시지에 추가된다. 이 콜백 함수의 호출은 첫번째 프레임의 역할을 한다. 그리고 자바스크립트가 싱글 스레드 이기 때문에, 추가의 메시지 폴링 그리고 처리는 스택에 모든 호출이 리턴되는 것을 기다리는 동안 중지된다. 후속 동기 함수 호출들은 새로운 호출 프레임 스택에 추가된다.

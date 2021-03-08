@@ -1,18 +1,19 @@
-1. CallStack 
+### CallStack
+
 - 함수의 호출을 기록하는 데이터 구조이다. 함수를 호출하면 콜스택에 함수를 밀어 넣고(push), 함수가 리턴되면 스택에서 삭제된다.
 - 콜스택은 사이즈에 제한이 있으며, 16.000 프레임을 초과할 시 Max stack 에러를 던진다.
 - Stack trace 에러는 기본적으로 현재의 콜스택 상태를 가르키며, 기본적으로 현재의 콜스택에서 스택에 잘못된 위치를 가르킨다.
 
-  2.  Heap 
+### Heap
 
 - Heap은 구조화 되어 있지 않은 곳으로, 객채와 변수들의 메모리 할당이 이루어지는 곳이다.
 
-  3.  Queue 
+### Queue
 
 - 자바스크립트 런타임은 실행에 연관된 Callback 함수들이 명단인 message queue를 포함한다. 스택이 충분한 공간을 가지고 있을 때, 스택은 큐에서 호출된 Callback함수와 연관된 메시지를 꺼내고 처리한다. message처리는 스택이 다시 비었을 때 끝난다.
 - 일반적으로, Callback 기능이 주어진 경우, 메세지들은 비동기 이벤트에 대한 응답으로 대기열에 포함된다. 예를 들어, 사용자가 버튼을 클릭했을 때, 콜백함수가 제공되어 있지 않다면 어떠한 message도 큐에 들어가지 않는다.
 
-  4.  Event Loop
+### Event Loop
 
 기본적으로, 함수가 성능을 느리게, 빠르게 만드는지 평가할 때 console.log 는 빠를 것이다. 반면에 많은 양의 roop, while 문을 처리하는 것은 느릴 것이고, 스택을 차지하고 막을 것이다. 이것을 Blocking script 라고 하며, 한번쯤은 들어봤을 것이다.
 
@@ -31,5 +32,3 @@ Event Loop는 큐안에 있는 콜백들 실행 그리고 스택이 비었을 �
 ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d0d09db1-81e8-4ebf-9000-15e1762d35a9/JavascriptEventLoop1.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d0d09db1-81e8-4ebf-9000-15e1762d35a9/JavascriptEventLoop1.png)
 
 웹브라우저에서, 메시지들은 이벤트가 발생했을 때 추가되고 이벤트 리스너가 붙어있다. 만약에 리스너가 없다면, 이벤트는 사라진다. 그래서 클릭 이벤트 핸들러를 가지고 있는 요소(Element)의 클릭은 다른 이벤트처럼 메시지에 추가된다. 이 콜백 함수의 호출은 첫번째 프레임의 역할을 한다. 그리고 자바스크립트가 싱글 스레드 이기 때문에, 추가의 메시지 폴링 그리고 처리는 스택에 모든 호출이 리턴되는 것을 기다리는 동안 중지된다. 후속 동기 함수 호출들은 새로운 호출 프레임 스택에 추가된다.
-
-참고 : <a href="https://medium.com/@gaurav.pandvia/understanding-javascript-function-executions-tasks-event-loop-call-stack-more-part-1-5683dea1f5ec">https://medium.com/@gaurav.pandvia/understanding-javascript-function-executions-tasks-event-loop-call-stack-more-part-1-5683dea1f5ec</a>

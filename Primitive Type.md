@@ -24,3 +24,6 @@ console.log(Sym1 === Sym2) return false;
 // 그들은 다른 값이다.
 
 ```
+### "abc".length의 값
+
+Javascript 는 primitive 타입과 object사이를 강제로 바꿀 수 있다. 문자 값인 경우 property length의 값에 접근하기 위해 String 객체로 강제로 바뀐다. 그리고 String 객체는 잠깐동안 사용되고 garbage collection에 희생된다.

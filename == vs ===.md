@@ -20,7 +20,7 @@ if(x === y){
 
 double-equals 연산자를 사용해서 비교함에 있어서, 만약 비교하는 것들이 같다면 true를 리턴할 것이다.그러나 한 가지 중요한 점이 있다. 만약 비교하는 것들이 다른 타입이라면, 타입 변화(type coercion)가 일어날 것이다.
 
-자바스크립트의 값(value)는 특정한 타입에 속해있다. 이러한 타입은 Number, String, Boolean, Function, Object, Symbol이다. 만약 예를 들어 문자열과 숫자를 비교한다면,  브라우저는 비교전에 문자열을 숫자로 변환할 것이다. 유사하게, 만약 true 또는 false를 숫자와 비교하면, true, false 값은 1 또는 0 으로 변환 될 것이다.
+자바스크립트의 값(value) 특정한 타입에 속해있다. 이러한 타입은 Number, String, Boolean, Function, Object, Symbol이다. 만약 예를 들어 문자열과 숫자를 비교한다면,  브라우저는 비교전에 문자열을 숫자로 변환할 것이다. 유사하게, 만약 true 또는 false를 숫자와 비교하면, true, false 값은 1 또는 0 으로 변환 될 것이다.
 
 ```jsx
 console.log(99 == "99"); //true

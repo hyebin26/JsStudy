@@ -74,3 +74,5 @@ console.log(' ' !== 0); // true
 ### Conclusion
 
 아마도, 대부분의 사람들이 이미 triple equals를 사용할 것이다. 자세히 알아보고 쓰는 것 또한 중요하다. 내가 생각하기에 최고의 요약은 "이것은 너의 코드에 데이터 타입 진실성을 유지하는데 도움이 된다"이다.
+
+참고 : <a href="https://www.impressivewebs.com/why-use-triple-equals-javascipt/">https://www.impressivewebs.com/why-use-triple-equals-javascipt/</a>

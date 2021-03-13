@@ -74,3 +74,5 @@ const result = addFunction(num1, num2);
 const result = addVariable(num1,num2)
 // => 30;
 ```
+
+참고:<a href="https://medium.com/@raviroshan.talk/javascript-function-declaration-vs-expression-f5873b8c7b38">https://medium.com/@raviroshan.talk/javascript-function-declaration-vs-expression-f5873b8c7b38</a>

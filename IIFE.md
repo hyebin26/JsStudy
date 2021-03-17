@@ -1,3 +1,4 @@
+## Immediately-invoked Function Expression
 함수를 이해하는 것, 그리고나서 현대에 어떻게 이용하는지 배우는 것은, 깨긋한 자바스크립트 코드 스킬에 중요하다.
 
 자주 사용되어 지는 함수 코딩 패턴은 멋진 이름이 가졌다. IIFE라고 알려지고 "iffy"라고 불리는  Immediately-invoked Function Expression이다.

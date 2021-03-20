@@ -146,3 +146,5 @@ console.log(myBitNumber.toString(2));
 요악을 하면, 비트연산자를 사용하면 여러 참/거짓 속성을 효율적으로 저장하고, 비교할 수 있다. 읽고 이해하는 것이 상당히 쉽고, 업데이트하고 유지 관리하는 것도 간단하며, 한 절을 편집하거나 다른 속성을 추가해야 하는 경우에도 어렵지 않다.
 
 그리고 가장 좋은 부분은 0과 1을 다룰 수 있다는 것이며, 커피를 충분히 마시고 눈을 감으면, 잠시동안 여러분은 거의 1950년대 기계어 코더인것처럼 행동 할 수 있다.
+
+해석글 : <a href="https://codeburst.io/using-javascript-bitwise-operators-in-real-life-f551a731ff5">https://codeburst.io/using-javascript-bitwise-operators-in-real-life-f551a731ff5</a>

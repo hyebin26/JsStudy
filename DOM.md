@@ -38,7 +38,7 @@ DOM은 HTML document를 일대일로 상대하는 것처럼 그리고 우리가 
 
 1.HTML이 유효하지 않을 경우 
 
-DOM은 유효한 HTML document의 인터페이스이다. DOM이 만들어지는 동안, 브라우저는 HTML코드에 무효한 점을 바로 잡을 수도 있다.
+DOM은 "유효한" HTML document의 인터페이스이다. DOM이 만들어지는 동안, 브라우저는 HTML코드에 무효한 점을 바로 잡을 수도 있다.
 
 예제를 보면,
 

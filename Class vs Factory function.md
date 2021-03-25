@@ -118,3 +118,5 @@ setTimeout(() => {
 	//code
 },0);
 ```
+
+해석 : <a href="https://www.freecodecamp.org/news/author/cristiansalcescu/">https://www.freecodecamp.org/news/author/cristiansalcescu/</a>

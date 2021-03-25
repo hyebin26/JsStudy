@@ -6,15 +6,15 @@ TodoModel as a Class
 
 ```jsx
 class TodoModel{
-		constructor(){
-			this.todos = [];
-			this.lastChange = null;
-		}
-		addToPrivateList(){
-			console.log("addToPrivateList");
-		}
-		add(){ console.log("add") }
-		reload(){}
+	constructor(){
+		this.todos = [];
+		this.lastChange = null;
+	}
+	addToPrivateList(){
+		console.log("addToPrivateList");
+	}
+	add(){ console.log("add") }
+	reload(){}
 }
 ```
 
@@ -22,17 +22,17 @@ Todomodel as a Factory Fucntion
 
 ```jsx
 function TodoModel(){
-		const todos = [];
-		const lastChange = null;
-		function addToPrivateList(){
-				console.log("addToPrivateList");
-		}
-		function add(){ console.log("add") }
-		function reload(){}
-		return Object.freeze({
-        add,
-        reload
-    });
+	const todos = [];
+	const lastChange = null;
+	function addToPrivateList(){
+		console.log("addToPrivateList");
+	}
+	function add(){ console.log("add") }
+	function reload(){}
+	return Object.freeze({
+        	add,
+        	reload
+    	});
 }
 ```
 
@@ -64,14 +64,14 @@ this 컨텍스트를 잃어버리는 문제는 클래스를 사용할 때 여전
 
 ```jsx
 class TodoModel{
-		constructor(){
-				this.todos = [];
-		}
-		reload(){
-				setTimeout(function log(){
-						console.log(this.todos); //undefined
-				},0);
-		}
+	constructor(){
+		this.todos = [];
+	}
+	reload(){
+		setTimeout(function log(){
+			console.log(this.todos); //undefined
+		},0);
+	}
 }
 todoModel.reload(); //undefined
 ```
@@ -86,13 +86,13 @@ factory function을 사용할 때는 이러한 문제는 없다. 왜냐하면 th
 
 ```jsx
 function TodoModel(){
-		const todos = [];
+	const todos = [];
 
-		function reload(){
-				setTimeout(function log(){
-						console.log(todos); //[]
-				}, 0);
-		}
+	function reload(){
+		setTimeout(function log(){
+			console.log(todos); //[]
+		}, 0);
+	}
 }
 
 todoModel.reload(); //[]

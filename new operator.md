@@ -71,7 +71,6 @@ Student.prototype.constructor; //fucntion Student
 
 이것은 복잡하다. 밑에 이미지를 보고 도움을 얻어보자.
 
-![이미지]([https://miro.medium.com/max/743/1*RIY6LBqQAbXPzMXMwH5d-Q.png](https://miro.medium.com/max/743/1*RIY6LBqQAbXPzMXMwH5d-Q.png))
 
 ![https://miro.medium.com/max/743/1*RIY6LBqQAbXPzMXMwH5d-Q.png](https://miro.medium.com/max/743/1*RIY6LBqQAbXPzMXMwH5d-Q.png)
 

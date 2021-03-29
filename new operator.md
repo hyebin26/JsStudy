@@ -125,3 +125,5 @@ name.toString(); // Not a good idea
 ### 결론
 
 새로운 개발자로서 이것은 이해하는데 매우 어려운 개념 일 수 있지만 일단 그렇게하면 훨씬 더 나은 코드를 작성할 수 있습니다. 프로토타입을 상요하면 수백, 수천 개의 객체에서 동일한 코드를 빠르고 휴과적으로 공유할 수 있다.
+
+참고 :<a href="https://codeburst.io/javascript-for-beginners-the-new-operator-cee35beb669e">https://codeburst.io/javascript-for-beginners-the-new-operator-cee35beb669e</a>

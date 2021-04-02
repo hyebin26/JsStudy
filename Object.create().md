@@ -12,8 +12,8 @@ Object.create의 예제를 보자.
 
 ```jsx
 const dog= {
-		eat: function(){
-			console.log(this.eatFood)
+	eat: function(){
+		console.log(this.eatFood)
 	}
 }
 
@@ -39,11 +39,11 @@ Object.create()는 완전하게 프로토타입이 dog로 설정된 새로운 �
 
 ```jsx
 const Dog = function(){
-		this.eatFood = "NomNomNom";
-		this.eat = function(){
-			console.log(this.eatFood)
-		}
+	this.eatFood = "NomNomNom";
+	this.eat = function(){
+		console.log(this.eatFood)
 	}
+}
 
 const maddie = new(Dog);
 console.log(maddie instanceof Dog); // True
@@ -63,7 +63,7 @@ Object.create() 와 new연산자의 차이는 무엇일까? 그들은 같은 것
 
 ```jsx
 function Dog(){
-		this.pupper = 'Pupper';
+	this.pupper = 'Pupper';
 }
 Dog.prototype.pupperino = 'Pups.';
 const maddie = new Dog();

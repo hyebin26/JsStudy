@@ -1,4 +1,4 @@
-### Pure function
+## Pure function
 
 처음 "Pure function" 을 들었을 때 혼란스러웠다. 보통의 함수들의 무엇이 잘못된 것일까? 왜 퓨어해지기를 필요로할까? 왜 순수 함수를 필요로할까?
 

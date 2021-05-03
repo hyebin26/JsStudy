@@ -287,9 +287,9 @@ const genRandom = randomFrom(1, 2, 5, 9, 4);
 getRandom.next().value; // 랜덤 값을 리턴한다.
 ```
 
-이것은 단순하다. 복잡한 함수의 예제를 보면, 우리는 함수에 throttled를 쓸 수 있다. 만약 우리가 이것에 대해서 모른다면, 이것에 대한 
+이것은 단순하다. 복잡한 함수의 예제를 보면, 우리는 함수에 throttled를 쓸 수 있다. 만약 우리가 이것에 대해서 모른다면, 이것에 대한 <a href="https://codeburst.io/throttling-and-debouncing-in-javascript-b01cad5c8edf">좋은 기사가 있다.</a> 
 
-<a href="[https://codeburst.io/throttling-and-debouncing-in-javascript-b01cad5c8edf](https://codeburst.io/throttling-and-debouncing-in-javascript-b01cad5c8edf)">좋은 기사가 있다.</a> 
+
 
 ## HTML에서 generator 사용
 

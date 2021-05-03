@@ -317,6 +317,7 @@ btn.addEventListener("click",(el)=>{
 
 ## 결론
 
-generator를 사용하는 많은 방법이 있다. 예를들면, 그들은 비동기 작업과 함께 사용할 떄 유용할 수 있다.
+- Generator는 반복문을 제어하는 함수로 Loop문은 작업을 멈출 수 없는 반면에 Generator는 언제든 지 일시 정지했다가 다시 시작할 수 있다.
+- Generator를 사용하는 방법은 여러가지가 있고 비동기 작업을 할 떄도 유용하다.
 
 번역글: <a href="[https://codeburst.io/what-are-javascript-generators-and-how-to-use-them-c6f2713fd12e](https://codeburst.io/what-are-javascript-generators-and-how-to-use-them-c6f2713fd12e)">[https://codeburst.io/what-are-javascript-generators-and-how-to-use-them-c6f2713fd12e](https://codeburst.io/what-are-javascript-generators-and-how-to-use-them-c6f2713fd12e)</a>

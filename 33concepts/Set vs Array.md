@@ -131,4 +131,5 @@ set.clear(); // {} set에서 모든 요소를 삭제한다.
 Set은 예를 들면 최소한의 노력으로 고유한 데이터를 유지하기를 원할 때,직접적인 요소의 접근의 필요성 없이 많은 고유의 데이터를 사용하면서 일을 할때를 제외하고는 Array를 넘는 거대한 이점을 가지고 있지 않다. 
 
 반면에 Array 항상 선택된다. 필요할 때 요소를 가져 오는 CPU 작업이 작기 때문이다.
+
 번역글 : <a href="https://medium.com/front-end-weekly/es6-set-vs-array-what-and-when-efc055655e1a">https://medium.com/front-end-weekly/es6-set-vs-array-what-and-when-efc055655e1a</a>

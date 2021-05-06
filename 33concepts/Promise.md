@@ -30,7 +30,7 @@ ES6 promise 생성자(constructor)는 함수를 받는다. 그 함수는 두 개
 
 ## Promise 규칙에 중요성
 
-Promise의 표준은 <a href="[https://promisesaplus.com/implementations](https://promisesaplus.com/implementations)"/>Promises/A+ specification</a>커뮤니티에 의해 정의되었다. JavaScript 표준 ECMAScript promise를 포함하여 표준을 따르는 많은 구현이 있습니다.
+Promise의 표준은 <a href="https://promisesaplus.com/implementations">Promises/A+ specification</a>커뮤니티에 의해 정의되었다. JavaScript 표준 ECMAScript promise를 포함하여 표준을 따르는 많은 구현이 있습니다.
 
 Promise는 정해진 특정한 규칙을 따라야만 한다.
 

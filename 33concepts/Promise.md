@@ -81,6 +81,9 @@ save()
 
 ## 결론
 
-- Promise는 비동기 작업을 맞이할 미래의 3개의 상태 중에 하나를 생산할 수 있는 객체이다.(fulfilled, rejected, pending)
+- Promise는 비동기 함수로부터 동기 함수를 리턴할 수 있는 객체이다.
+- Promise는 3가지의 상태 중에 한 가지를 가진다.(pending,fulfilled, rejected )
 - Promsie chanining을 할 때는 마지막에 에러를 다루기 위해 .catch로 끝내야 한다.
+
+
 번역글: <a href="https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-promise-27fc71e77261">https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-promise-27fc71e77261</a>

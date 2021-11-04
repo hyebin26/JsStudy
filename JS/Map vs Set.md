@@ -55,3 +55,6 @@ test.has({a:1,b:2}) // false 출력 => 참조값 확인 불가능
 ## Set객체의 장점
 1. Map과 똑같이 메소드의 장점이 있다.
 2. 유일한 값이 저장되어야 하므로 중복된 값이 들어가면 안될 때 사용하는 것이 좋다.
+
+### 참고
+https://maxkim-j.github.io/posts/js-map

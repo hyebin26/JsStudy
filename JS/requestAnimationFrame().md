@@ -63,7 +63,9 @@ _render: debounceFrame(() => {
 ```
 예제는 vanilla javasciprt로 useState를 구현할 때 작성한 코드로, useState의 값이 바뀌면 _render의 값이 호출된다. 하지만 만약에 하나의 이벤트안에서 백개의 state가 변경된다면 백 번의 re-rendering이 발생한다.
 
-이를 방지하고자 웹에서 발생하는 이벤트 제어 기술인 디바운싱을 활용하면, 이벤트안에서 setState함수를 호출하면 state의 값을 변경하고 렌더링이 된다. 하지만 debounce 함수안에 requestAnimationFrame으로 1ms 시간안에 debounceFrame이라는 함수가 또 호출되면 cancelAnimationFrame으로 이전의 콜백을 취소하고 새로운 callback이 실행된다.
+이를 방지하고자 웹에서 발생하는 이벤트 제어 기술인 디바운싱을 활용하면, 이벤트안에서 setState함수를 호출하면 state의 값을 변경하고 렌더링이 된다.
+
+하지만 debounce 함수안에 requestAnimationFrame으로 1ms 시간안에 debounceFrame이라는 함수가 또 호출되면 cancelAnimationFrame으로 이전의 콜백을 취소하고 새로운 callback이 실행된다.
 
 참고: https://developer.mozilla.org/ko/docs/Web/API/Window/requestAnimationFrame
 참고: <a href="https://webisfree.com/2020-03-19/[%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8]-requestanimationframe()%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95-%EB%B0%8F-%EC%98%88%EC%A0%9C">webisfree.com requestAnimationFrame</a>

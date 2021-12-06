@@ -40,4 +40,5 @@ React.memo(myFunction,areEqual);
  같은 props로 렌더링이 자주 일어나는 컴포넌트 일 경우는 사용하는 것이 성능의 향상을 가져올 수 있습니다. 하지만 memo를 사용할 경우 memoizing된 값이 캐쉬로 저장이 되기 때문에 변경이 잦은 부모컴포넌트에 사용시 오히려 성능이 저하 될 수 있습니다. 
  
  참고:https://velog.io/@yejinh/useCallback%EA%B3%BC-React.Memo%EC%9D%84-%ED%86%B5%ED%95%9C-%EB%A0%8C%EB%8D%94%EB%A7%81-%EC%B5%9C%EC%A0%81%ED%99%94
+ 
  참고: https://react.vlpt.us/basic/19-React.memo.html

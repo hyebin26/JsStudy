@@ -1,6 +1,6 @@
 # React Hooks
 
-Hook은 함수 컴포넌트에서 React state와 생명주기 기능을 연동(hook into)할 수 있게 해주는 함수이다.
+Hook은 함수 컴포넌트에서 React state와 컴포넌트의 생명주기(Life cycle) 기능을 연동(hook into)할 수 있게 해주는 함수이다.
 
 ## 동기
 

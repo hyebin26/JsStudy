@@ -25,3 +25,5 @@ meta태그를 살펴보면, <meta>태그의 charset속성은 해당 HTML문서�
 3. i18n
 다국어 컨텐츠를 언어별로 제공할 때는 i18n으로 제공하는 것이 일반적이라고 생각한다. 각 언어별 json 파일(ko.json, en.json, jp.json과 같은 파일을 구성하고 i18n 라이브러리를 이용하여 언어별 페이지를 제공한다.
 
+## 참고
+https://devowen.com/271?category=778540

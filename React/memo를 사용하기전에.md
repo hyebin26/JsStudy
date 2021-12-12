@@ -1,5 +1,5 @@
 ## 참고 
-이 글은 <a href="https://overreacted.io/before-you-memo/">Dan Abramo</a>의 글을 해석한 글입니다.
+이 글은 <a href="https://overreacted.io/before-you-memo/">Dan Abramov</a>의 글을 해석한 글입니다.
 
 # 😎memo를 사용하기 전에
 React 퍼포먼스 최적화에 대하여 쓴 기사는 많다. 일반적으로, 상태 업그레이드가 느리다면, 다음을 수행해야 한다.

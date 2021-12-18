@@ -101,3 +101,6 @@ useEffect(() => {
 effect가 너무 자주 변경되는  state의 경우 함수 컴포넌트의 업데이트 폼을 이용해야 한다.
 
 [https://dodokim.medium.com/setstate-를-함수형으로-사용하기-763402cbc3e5](https://dodokim.medium.com/setstate-%EB%A5%BC-%ED%95%A8%EC%88%98%ED%98%95%EC%9C%BC%EB%A1%9C-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0-763402cbc3e5)
+
+참고:
+https://ko.reactjs.org/docs/hooks-intro.html

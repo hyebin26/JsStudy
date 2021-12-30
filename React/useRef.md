@@ -1,5 +1,4 @@
 # useRef
-## useRef
 
 React에서 Ref는 Reference의 줄임말이고, DOM요소를 참조한다고 해서 붙인 이름 같습니다. 일반적으로 우리는 DOM에 접근하기 위해 Ref를 사용해왔습니다. 하지만 React Hook을 이용해 useRef라는 API가 공개됐습니다. 이전 버전의 createRef를 단순히 hook으로 처리했다라고만 알고 있었습니다. 그런데 react-redux의 useSelector소스코드에서 useRef를 적극적으로 사용하는 것을 보고 의문이 생겼습니다.
 

@@ -22,10 +22,7 @@ React에서 Ref는 Reference의 줄임말이고, DOM요소를 참조한다고 �
 
 - 같은 메모리 주소를 갖고 있기 때문에 자바스크립트의 === 연산이 항상 true를 반환합니다. 즉 변경사항을 감지할 수 없어서 리렌더링을 하지 않는다는 뜻입니다.
 
-참고:
-https://dev.to/dylanju/useref-3j37?fbclid=IwAR0fl7xMjn_Hp6sImCU-EQt4gJ0ob_YY6hS3cwn4ARyClTUYD2KN0R6X-O0
 
-https://genglog.me/blog/210507
 ```jsx
 import { useRef } from "react";
 
@@ -62,3 +59,8 @@ export default function App() {
 ## 결론
 
 useRef는 클래스의 인스턴스 프로퍼티와 같다고 생각하시면 됩니다. 컴포넌트 내부에서 관리하는 변수인데, 값이 바뀔 때마다 렌더링이 필요하면 useState를 쓰면 되고 아닐 경우 useRef를 써야한다고 생각하시면 간단할 것 같습니다.
+
+## 참고
+https://dev.to/dylanju/useref-3j37?fbclid=IwAR0fl7xMjn_Hp6sImCU-EQt4gJ0ob_YY6hS3cwn4ARyClTUYD2KN0R6X-O0
+
+https://genglog.me/blog/210507

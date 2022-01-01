@@ -61,7 +61,7 @@ Fiber는 재조정기를 다시 구현한다. 이것은 주로 렌더링과 관�
 
 - 반드시 실행되야 하는 것의 계산. Work는 일반적으로 update에 결과이다.(setState)
 
-React의 [Design Principles](https://facebook.github.io/react/contributing/design-principles.html#scheduling) 문서는 이 주제에 적합하고 나는 단지 인용할 것이다.
+React의 [Design Principles](https://facebook.github.io/react/contributing/design-principles.html#scheduling) 문서는 이 주제에 적합하고 나는 단지 인용만 할 것이다.
 
  
 

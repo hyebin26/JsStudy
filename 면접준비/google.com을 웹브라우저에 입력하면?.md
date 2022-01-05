@@ -21,6 +21,7 @@
 
 - Internet Layer: 수신 측 까지 데이터를 전달하기 위해 사용 (ex. IP, ICMP, RARP, OSPF)
 - IP사용
+- IP(Internet Protocol)이란 인터넷에 연결되어 있는 모든 장치(컴퓨터,서버장비,스마트폰 등)을 식별할 수 있도록 각각의 장비에게 부여되는 고유 주소이다.
 - 여기서도 중요한 정보는 SA와 DA로 SA는 시작 IP주소로 내 컴퓨터의 IP주소로 이미 알고 있다. 그리고 목적지IP주소는 DNS를 이용해 도메인정보로 IP주소를 알 수 있다.
 - DNS(Domain Name System)는 HTTP와 달리 사용자가 직접 요청하는 프로토콜이 아니다. 하위 트랜스포트 계층의 프로토콜을 이용하므로 Application Layer이다.
 - DNS 서버주소는 각 컴퓨터에 등록되어 있다.
@@ -58,6 +59,9 @@ TCP/IP의 계층으로 송신된 데이터를 수신측 애플리케이션에 �
 - Congestion(혼잡문제) 네트워크의 데이터 처리 속도 ⇒ 통신자에서 데이터를 보내도 네트워크가 혼잡해서 데이터가 가지 않을 때
 
 ### TCP(Transmission Control Protocol)
+
+**전송 제어 프로토콜**(Transmission Control Protocol)은 인터넷 프로토콜 스위트(IP)의 핵심 프로토콜 중 하나로, IP와 함께 TCP/IP라는 명칭으로도 널리 불립니다. 주로 서버와 클라이언트간에 데이터를 신뢰성 있게 전달하기 위해 사용한다.
+
 
 - 신뢰성있는 데이터 통신을 가능하게 해주는 프로토콜
 - 특징: 3-way handshake(Connection 연결)

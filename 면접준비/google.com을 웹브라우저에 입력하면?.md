@@ -38,7 +38,7 @@
 - Application Layer: 특정 서비스를 제공하기 위해 애플리케이션 끼리 정보를 주고 받을 수 있다.(ex. FTP, HTTP, SSH, Talnet, DNS, SMTP)
 - HTTP사용
 
-Network Access Layer의 ARP로 IP주소를 통해 MAC주소를 얻고, Internet Layer의 IP주소를 사용해서 올바른 도착지인 google.com에 도착할 수 있다. 그 다음 Transport Layer의 목적지 포트번호인 80번을 보고 80번 포트를 사용하는 애플리케이션에게 데이터를 전달해줘야 되는 것을 알 수 있다. 그 다음 Application Layer까지 오면 웹서버가 사용될 HTTP Request 데이터를 얻을 수 있다.
+Network Access Layer의 ARP로 MAC주소를 얻고, Internet Layer의 IP주소를 사용해서 올바른 도착지인 google.com에 도착할 수 있다. 그 다음 Transport Layer의 목적지 포트번호인 80번을 보고 80번 포트를 사용하는 애플리케이션에게 데이터를 전달해줘야 되는 것을 알 수 있다. 그 다음 Application Layer까지 오면 웹서버가 사용될 HTTP Request 데이터를 얻을 수 있다.
 
 브라우저는 응답 패킷에 대한 파싱을 먼저 수행하고 구글 웹사이트의 경우 text/html타입으로 데이터를 받고 파싱하여 화면에 출력한다.
 

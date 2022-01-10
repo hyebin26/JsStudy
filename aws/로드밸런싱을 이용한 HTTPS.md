@@ -28,7 +28,7 @@ ELB는 밑의 Load balancer를 지원한다.
 - Network Load Balancer => L4
 - Gateway load Balancer
 
-이해하기 위해 웹에서 사용하기 편리한 Application Load Balancer의 동작 순서를 확인해보자.
+웹에서 사용하기 편리한 Application Load Balancer의 동작 순서를 확인해보자.
 1. Client는 너의 앱에 요청을 보낸다.
 2. 로드밸런서의 Listener는 구성한 프로토콜 및 포트와 일치하는 요청을 받는다.
 3. Receiving Listener는 사용자가 지정한 규칙에 따라 들어온 요청을 평가하고 해당한다면 요청을 적절한 대상그룹으로 라우팅한다. HTTPS 리스너를 사용하여 TLS암호화 및 암호 해독 작업을 로드 밸런서로 오프로드(분담) 할 수 있다. 

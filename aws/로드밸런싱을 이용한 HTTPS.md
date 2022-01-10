@@ -24,8 +24,8 @@ Load Balancing부터 이야기를 해보면 클라이언트가 한 두명인 경
 이제 아마존에서 제공하는 로드밸런싱 ELB(Elastic Load Balancing)에 대해서 알아보면 ELB는 자동적으로 EC2 인스탠스, Container 그리고 IP주소와 같은 다양한 타겟에 들어오는 트래픽을 분배한다. 이것은 이것에 등록된 타겟의 상태(healthy)를 감시하고, healthy target으로 라우팅한다.
 
 ELB는 밑의 Load balancer를 지원한다.
-- Application Load Balancer
-- Network Load Balancer
+- Application Load Balancer => L7
+- Network Load Balancer => L4
 - Gateway load Balancer
 
 이해하기 위해 웹에서 사용하기 편리한 Application Load Balancer의 동작 순서를 확인해보자.

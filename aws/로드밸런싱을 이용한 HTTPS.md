@@ -1,4 +1,4 @@
-이번에 AWS EC2를 이용해서 웹서버를 배포할 때 HTTP가 아닌 HTTPS를 적용하기 위해 공부한 글입니다.
+이번에 AWS EC2를 이용해서 웹서버를 배포할 때 HTTP가 아닌 HTTPS로 배포하기 위해 ELB를 적용하면서 공부한 글입니다.
 
 ## Load Balancing
 Load Balancing부터 이야기를 해보면 클라이언트가 한 두명인 경우 서버가 여유롭게 처리할 수 있지만 사용자가 1억명이라면 서버가 과부하에 동작을 멈추게 된다. 과부하를 막기 위한 방법은 크게 두 가지로 나눌 수 있다.
@@ -19,6 +19,8 @@ Load Balancing부터 이야기를 해보면 클라이언트가 한 두명인 경
 - ACM은 Amazon Certificate Manager로 SSL/TLS 인증서를 손쉽게 프로비저닝, 관리, 배포 및 갱신할 수 있다.
 - SSL(Secure Socket Layer): 보안 프로토콜을 통해 클라이언트와 서버가 보안이 향상된 통신을 하는 것을 말한다.
 - HTTPS는 TLS와 HTTP가 조합된 프로토콜을 가르키며 TLS는 SSL의 후속버전이다.
+- 우리는 ACM을 이용해서 기존의 사이트에 HTTPS인증서를 요청할 수 있다.
+
 이제 아마존에서 제공하는 로드밸런싱 ELB(Elastic Load Balancing)에 대해서 알아보면 ELB는 자동적으로 EC2 인스탠스, Container 그리고 IP주소와 같은 다양한 타겟에 들어오는 트래픽을 분배한다. 이것은 이것에 등록된 타겟의 상태(healthy)를 감시하고, healthy target으로 라우팅한다.
 
 ELB는 밑의 Load balancer를 지원한다.

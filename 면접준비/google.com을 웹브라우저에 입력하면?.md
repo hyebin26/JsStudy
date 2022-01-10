@@ -3,7 +3,7 @@
 
 해당 요청을 인터넷을 통해 구글서버로 전달하기 위해 우리는 패킷을 만들어야 한다.
 
-패킷(데이터의 형식화된 블록)에는 각 계층에 필요한 정보들이 담겨져 있어야 한다. 
+패킷(네트워크가 전달하는 데이터의 형식화된 블록)에는 각 계층에 필요한 정보들이 담겨져 있어야 한다. 
 
 ![TCP-IP-model-Application-Layer-the-developed-application-uses-at-this-layer-a-protocol](https://user-images.githubusercontent.com/67263146/148182318-6a8bfaa8-a9ba-42e3-8672-4fad378c7192.png)
 

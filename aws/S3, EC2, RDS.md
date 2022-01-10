@@ -37,6 +37,13 @@ EC2의 인스턴스를 시작하면 가장 먼저 선택해야 하는 것으로,
 ## RDS(Amazon Relational Database Service)
 RDS는 AWS클라우드에서 관계형 데이터베이스를 더 쉽게 설치, 운영 및 확장할 수 있는 웹서비스다. 이 서비스는 산업 표준 관계형 데이터베이스를 위한 경제적이고 크기 조절이 가능한 용량을 제공하고 공통 데이터베이스 관리 작업을 관리한다.
 
+## 내가 사용한 것들
+- 정적인 웹을 배포하는 것은 S3를 이용해도 되나 동적인 웹을 배포해야 하므로 EC2를 사용했다.
+- node.js로 배포하는 정보가 많아서 EC2의 Unbuntu를 사용했다. => Ubuntu: Linux의 배포판
+- 가비아로 도메인을 구매하고 Route 53으로 DNS시스템 도입했다.
+- 환경변수를 저장하기 위해 AWS System Manager에 Parameter store를 이용하려고 파라미터를 생성하고 API호출하는 권한을 설정을 실패해서 env파일로 환경변수를 관리한다.
+- CCM으로 HTTPS인증서를 받고 인스턴스에 적용했다.
+
 
 참고: https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/ec2-instances-and-amis.html
 

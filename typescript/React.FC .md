@@ -142,6 +142,6 @@ type MyComponentProps = React.PropsWithChildren<{
 function MyComponentCorrect({ title, children }: MyComponentProps) {}
 ```
 
-동일한 작업을 수행하고 `PropsWithChildren`은 `React.FC`와 마찬가지로 교차 유형으로 정의됩니다.
+동일한 작업을 수행하고 `PropsWithChildren`은 `React.FC`와 마찬가지로 교차 유형으로 정의된다.
 
 매개변수에 직접 props를 사용하면 component를 보다 정확하게 입력하고 유연성을 높일 수 있다.

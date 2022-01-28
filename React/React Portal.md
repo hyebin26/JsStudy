@@ -17,10 +17,18 @@ import React, { useState } from "react";
 import ReactDOM from "react-dom";
 import NotPortal from "./notPortal";
 
+const CountPortal = ({ children }) => {
+  return (
+    <>
+      <h1>Portal</h1>
+      {children}
+    </>
+  );
+};
+
 const Portal = ({ children }) => {
   const globalPortal = document.getElementById("global-portal");
-  return ReactDOM.createPortal(children, globalPortal);
-};
+  return ReactDOM.createPortal(<CountPortal children={children}/>, globalPortal);
 
 const NotPortal = ({ children }) => {
   return (

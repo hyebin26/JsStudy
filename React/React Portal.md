@@ -8,7 +8,7 @@ React의 공식 문서를 보면 **Portal은 부모 컴포넌트의 DOM 계층 �
 
 첫 번째 인자(child)는 엘리먼트, 문자열, 혹은 fragment와 같은 어떤 종류이든 렌더링할 수 있는 React자식이다. 두 번째 인자는(container)는 DOM엘리먼트이다.
 
-간단하게 말해 Portal은 게임에서 접할 수 있는 Portal처럼 렌더링할 수 있는 React자식 컴포넌트를 React의 기본적인 흐름구조(Tree)를 무시하고 DOM엘리먼트로 이동시켜준다 
+간단하게 말해 Portal은 게임에서 접할 수 있는 Portal처럼 렌더링할 수 있는 React자식 컴포넌트를 React의 기본적인 흐름구조(Tree)를 무시하고 해당 DOM로 이동시켜준다 
 
 ### 예제
 

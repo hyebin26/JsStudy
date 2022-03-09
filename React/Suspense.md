@@ -232,3 +232,5 @@ function ProfilePage() {
 ```
 
 이 오류 경계는 렌더링 오류, 그리고 데이터 불러오기를 위한 Suspense에서 발생한 오류를 둘 다 잡아낼 것입니다. 오류 경계는 쓰고 싶은 만큼 사용할 수 있지만, 오류 경계의 배치는 계획적으로 이루어지는 것이 좋습니다.
+
+참고: https://ko.reactjs.org/docs/concurrent-mode-suspense.html#what-is-suspense-exactly

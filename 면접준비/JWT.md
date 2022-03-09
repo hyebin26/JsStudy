@@ -25,7 +25,7 @@ HTTP프로토콜은 Stateless로 동작합니다. 새 요청은 이전 요청에
 
 ### JWT
 
-JW(Json Web Token)이란 JSON포멧을 이용하여 사용자에 대한 속성을 저장하는 Claim 기반의 Web Token입니다. JWT는 토큰 자체를 정보로 사용하는 Self-Contained 방식으로 정보를 안전하게 전달할 수 있습니다.
+JW(Json Web Token)이란 JSON포멧을 이용하여 사용자에 대한 속성을 저장하는 Web Token입니다. JWT는 토큰 자체를 정보로 사용하는 Self-Contained 방식으로 정보를 안전하게 전달할 수 있습니다.
 
 장점은
 

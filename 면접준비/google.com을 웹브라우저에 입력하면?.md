@@ -26,6 +26,7 @@
 - DNS(Domain Name System)는 HTTP와 달리 사용자가 직접 요청하는 프로토콜이 아니다. 하위 트랜스포트 계층의 프로토콜을 이용하므로 Application Layer이다.
 - DNS 서버주소는 각 컴퓨터에 등록되어 있다.
 - DNS가 존재하지 않다면 google이 아니라 google의 IP주소를 외우고 다녀야 한다.
+- 도메인 네임 시스템(Domain Name System, DNS)은 호스트의 도메인 이름을 호스트의 네트워크 주소로 바꾸거나 그 반대의 변환을 수행할 수 있도록 하기 위해 개발되었다.
 
 ***Transport Layer***
 

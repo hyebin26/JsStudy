@@ -41,7 +41,7 @@ Next는 SSG도 지원하고, SSR(Server Side Rendering),CSR도 지원해서 목�
 Next.js는 default로 모든페이지가 **pre-render**가 된다. 즉, Next.js는 클라이언트 측 Javascript로 모든 작업을 수행하는 대신 각 페이지에 대해 미리 HTML을 생성합니다. P**re-render은 더 나은 성능과 SEO로 이어질 수 있습니다.**
 
 만들어진 HTML은 페이지에 꼭 필요한 최소한의 코드로 이루어져 있습니다. 브라우저에 의해 페이지가 로드되었을 때, Javascript code는 동작되고 페이지를 전체적으로 interactive하게 만듭니다.(이러한 과정을 hydration이라고 부릅니다.)
-- hydration: CSR에서는 HTML파일의 컨텐츠가 없이 오기 댸문에 React의 render함수를 이용해 컨텐츠를 생성해 DOM에 채워넣게 되고, 자연스럽게 React는 현재 DOM을 알게됩니다. 하지만 SSR의 결과로 이미 HTML에 컨텐츠가 존재하는 상황에서는 React의 render함수를 통해 다시 컨텐츠를 생성해내고 DOM을 채우는 것은 비효율적입니다. React는 `hydrate`를 통해 존재하는 HTML의 내용을 흡수할 수 있도록 합니다. HTML의 내용을 기반으로 React의 가상돔이 생성되고 React는 이 가상돔을 기반으로 향후 DOM을 조작하게 됩니다.
+- **hydration**: CSR에서는 HTML파일의 컨텐츠가 없이 오기 댸문에 React의 render함수를 이용해 컨텐츠를 생성해 DOM에 채워넣게 되고, 자연스럽게 React는 현재 DOM을 알게됩니다. 하지만 SSR의 결과로 이미 HTML에 컨텐츠가 존재하는 상황에서는 React의 render함수를 통해 다시 컨텐츠를 생성해내고 DOM을 채우는 것은 비효율적입니다. React는 `hydrate`를 통해 존재하는 HTML의 내용을 흡수할 수 있도록 합니다. HTML의 내용을 기반으로 React의 가상돔이 생성되고 React는 이 가상돔을 기반으로 향후 DOM을 조작하게 됩니다.
 
 Rendering Form은 두 가지가 존재합니다.
 

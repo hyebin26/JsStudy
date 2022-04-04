@@ -34,5 +34,5 @@
 - 30X - 리다이렉트를 합니다.
 - 40X - 에러를 기록하고 HTML을 로드하지 않습니다.
 - 50X - status code가 바뀌게 되면 체크하러 다시 돌아올 수도 있습니다.
-1. Render Queue: 검색 시스템의 다양한 서비스 및 구성요소가 HTML을 처리하고 컨텐츠를 구문 분석합니다. 페이지에 일부 JavaScript 클라이언트 측 기반 콘텐츠가 있는 경우 URL이 Render Queue에 추가될 수 있습니다. Render Queue는 Javascript를 렌더링하는 데 더많은 리소스를 사용해야 하기 때문에 Google에 더 많은 비용이 듭니다.
-2. Ready to be indexed: 모든 기준이 충족되면 페이지가 인덱싱되고 검색 결과에 표시될 수 있습니다.
+4. Render Queue: 검색 시스템의 다양한 서비스 및 구성요소가 HTML을 처리하고 컨텐츠를 구문 분석합니다. 페이지에 일부 JavaScript 클라이언트 측 기반 콘텐츠가 있는 경우 URL이 Render Queue에 추가될 수 있습니다. Render Queue는 Javascript를 렌더링하는 데 더많은 리소스를 사용해야 하기 때문에 Google에 더 많은 비용이 듭니다.
+5. Ready to be indexed: 모든 기준이 충족되면 페이지가 인덱싱되고 검색 결과에 표시될 수 있습니다.

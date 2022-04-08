@@ -20,7 +20,7 @@ Next.js로 프로젝트를 하면서 재사용하는 `NavBar` ,`Footer` , `Logo`
 
 해결방법정리
 
-- Shallow Routing ⇒ 이론다시 공부하기
+- Shallow Routing ..?
 - next/link 설정 ⇒ state넘겨주기? ⇒ 쿼리로 넘겨받는 것은 효율적이지 않음
 - Layouts 컴포넌트 제거 ⇒ 햄버거 메뉴가 액티브 되는 것은 취소되나 성능, 효율적으로 별로라고 생각함
 - 결국 주먹구구 식이지만... Link에 이벤트를 추가해서 클릭했을 때 햄버거 메뉴가 액티브한 상태면 상태값을 false로 변경

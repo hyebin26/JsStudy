@@ -7,7 +7,7 @@
 ```jsx
 export async function getServerSideProps(ctx){
 	return {
-    props:{}, // props로 페이지 컴포넌트를 지나갈 것입니다.
+    props:{}, // 페이지 컴포넌트를 지나갑니다.
 	}
 }
 ```
@@ -36,7 +36,6 @@ export async function getServerSideProps(ctx){
 
 예를 들어 이러한 접근은 dashboard페이지에서 효과가 있습니다. 왜냐하면 dashboard는 사전렌더링되는 것을 필요로 하지 않고 SEO와 연관되어 있지 않고 사적이고, 특정한 유저 페이지이기 때문입니다. 데이터는 자주 업데이트되므로 요청 시 데이터를 가져와야 합니다.
 
----
 
 ## getStaticPaths
 
@@ -88,7 +87,6 @@ Dynamic Routes를 사용하는 페이지로 부터 `getStaticPaths` 함수를 ex
 - `getStaticProps` 는  를 사용할 때 뒤에서 동작합니다.
 - `getStaticProps` 는 `fallback:blocking` 를 사용할 때 첫 렌더링 전에 호출됩니다.
 
----
 
 ## getStaticProps
 
@@ -141,8 +139,6 @@ export async function getStaticProps() {
 이러한 JSON 파일은 `next/link` 그리고 `next/router` 통하여 클라이언트에서 라우팅에서 사용됩니다. `getStaticProps` 를 사용하여 사전렌더링한 페이지는 네비게이트할 때, Next.js는 JSON file(빌드타임에 미리 계산한)을 fetch하고 page의 컴포넌트에 props로서 사용합니다. 클라이언트의 페이지 변환은 오직 export된 JSON을 사용함으로서 `getStaticProps` 를 호출하지 않는다는 것을 의미합니다.
 
 Incremental Static Generation을 사용할 때, `getStaticProsp`는 클라이언트 네비게이션을 위해 필요로하는 JSON을 생성하기 위해 background에서 생성됩니다. 동일한 페이지에 대한 여러 요청의 형태로 이를 볼 수 있지만 의도된 것이며 최종 사용자 성능에 영향을 미치지 않습니다.
-
----
 
 ## Incremental Static Regeneration
 
